@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "504973082873",
+    "project_id": "moneymate-beee9",
+    "storage_bucket": "moneymate-beee9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:504973082873:android:39dc4a5ce5c32803852228",
+        "android_client_info": {
+          "package_name": "com.tamk2024sp.receipt_mana"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAu896CTkcYolDAPuPe7BPvSyM8Xwbjohc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

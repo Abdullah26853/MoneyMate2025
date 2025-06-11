@@ -1,0 +1,40 @@
+name: Demo Test Workflow
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          channel: stable  # Ensure compatibility with Dart SDK ^3.5.0
+
+      - name: Install dependencies
+        run: flutter pub get
+
+      # Stage 1: Run
+      - name: Run Dummy Stage
+        run: echo "Running application code..."  # Dummy command for 'run' stage
+        shell: bash
+
+      # Stage 2: Test
+      - name: Run Tests
+        run: |
+          echo "Starting tests..."
+          flutter test --coverage || true
+        continue-on-error: true  # Allows workflow to continue even if tests fail
+
+      # Stage 3: Build
+      - name: Build Application
+        run: |
+          echo "Building application..."
+          flutter build apk

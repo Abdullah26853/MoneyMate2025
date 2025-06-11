@@ -1,0 +1,2 @@
+C:/Users/omarelnemr/projects/MoneyMate2025/android/app/.cxx/RelWithDebInfo/5r6g35t6/x86/CMakeFiles/edit_cache.dir
+C:/Users/omarelnemr/projects/MoneyMate2025/android/app/.cxx/RelWithDebInfo/5r6g35t6/x86/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,32 @@
+# Flutter/Dart related
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub/
+build/
+
+# Android specific
+android/.gradle/
+android/app/*.apk
+
+# iOS specific
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Generated.xcconfig
+
+# IDE specific
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# Miscellaneous
+*.log
+*.tmp
+
+# macOS system files
+.DS_Store
+build/
+*.apk

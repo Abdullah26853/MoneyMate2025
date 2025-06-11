@@ -1,0 +1,2 @@
+C:/Users/omarelnemr/Documents/Receipt-Manager-App-main/android/app/.cxx/Debug/4364t5i2/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/Users/omarelnemr/Documents/Receipt-Manager-App-main/android/app/.cxx/Debug/4364t5i2/armeabi-v7a/CMakeFiles/rebuild_cache.dir
